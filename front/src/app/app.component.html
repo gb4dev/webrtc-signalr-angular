@@ -1,0 +1,7 @@
+<button (click)="connect()">Connect</button>
+<input type="text" name="" id="" #id (change)="userId=id.value">
+<br><br><br>
+<input type="text" name="" id="" #textVal (change)="text=textVal.value">
+<button (click)="sendMessage()">Send</button>
+
+<p *ngFor="let message of messages">{{message}}</p>
